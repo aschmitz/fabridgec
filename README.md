@@ -24,14 +24,14 @@ optimizing things, that's all it takes.
 
 The two cases in which it *won't* work:
 
-- If you use the low-level API of FABridge: (These functions aren't exported by
-  default, but you can export them manually if you want.)
-  - `getPropertyFromAS(objRef, propName)`
-  - `setPropertyInAS(objRef,propName, value)`
-  - `callASFunction(funcID, args)`
-  - `callASMethod(objID, funcName, args)`
-- If you have Flash objects with bridge names of a single character. (They may
-  conflict with the Closure-generated internal method names.)
+1. If you use the low-level API of FABridge: (These functions aren't exported
+   by default, but you can export them manually if you want.)
+   - `getPropertyFromAS(objRef, propName)`
+   - `setPropertyInAS(objRef,propName, value)`
+   - `callASFunction(funcID, args)`
+   - `callASMethod(objID, funcName, args)`
+2. If you have Flash objects with bridge names of a single character. (They may
+   conflict with the Closure-generated internal method names.)
 
 It should work in pretty much every other case. FABridgeC doesn't pollute the
 global namespace.
