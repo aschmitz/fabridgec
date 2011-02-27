@@ -1,12 +1,8 @@
 (function(){var e=true,g=null;Math.floor(Math.random()*2147483648).toString(36);/*
- FABridgeC
+ FABridgeC <https://github.com/aschmitz/fabridgec>
  Portions copyright 2006 Adobe Systems Incorporated
  Copyright 2011 Andy Schmitz
- Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
- The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ Released under the MIT License <http://www.opensource.org/licenses/mit-license.php>
 */
 function i(a,c){this.target=a;this.m={};this.l={};this.h={};this.k={};this.i=j++;this.name=c;this.B=0;k[this.name]=this;l[this.i]=this;return this}var q={};function r(a){for(var c=[],b=0;b<a.length;b++)c[b]=a[b];return c}function s(a){this.b=a;return this}window.FABridge__invokeJSFunction=function(a){var c=a[0];a=a.concat();a.shift();return l[c>>16].z(c,a)};
 window.FABridge__bridgeInitialized=function(a){var c=document.getElementsByTagName("object"),b=c.length,d=[];if(b>0)for(var f=0;f<b;f++)if(typeof c[f].SetVariable!="undefined")d[d.length]=c[f];b=document.getElementsByTagName("embed");f=b.length;c=[];if(f>0)for(var h=0;h<f;h++)if(typeof b[h].SetVariable!="undefined")c[c.length]=b[h];h=d.length;b=c.length;f="bridgeName="+a;if(h==1&&!b||h==1&&b==1)t(d[0],a);else if(b==1&&!h)t(c[0],a);else{var o=false;if(h>1)for(var m=0;m<h;m++){for(var v=d[m].childNodes,
