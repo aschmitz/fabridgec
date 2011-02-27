@@ -11,7 +11,7 @@ replacement for FABridge in nearly all cases (see below for details). FABridgeC
 is available under the terms of the MIT license, just like the original
 FABridge JavaScript.
 
-The upshot? An FABridge replacement in just 6.3 KiB compiled, or 2.5 KiB
+The upshot? An FABridge replacement that's just 5.4 KiB compiled, or 2.0 KiB
 gzipped.
 
 Drop-in Replacement
