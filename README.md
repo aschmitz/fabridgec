@@ -11,15 +11,18 @@ replacement for FABridge in nearly all cases (see below for details). FABridgeC
 is available under the terms of the MIT license, just like the original
 FABridge JavaScript.
 
-The upshot? An FABridge replacement in 6.3 KiB compiled, and 2.5 KiB gzipped.
+The upshot? An FABridge replacement in just 6.3 KiB compiled, or 2.5 KiB
+gzipped.
 
 Drop-in Replacement
 -------------------
 
-You can use the compiled fabridgec.js in place of fabridge.js pretty much
-anywhere.
+You can use the compiled [fabridgec.js](https://github.com/aschmitz/fabridgec/blob/master/fabridgec.js)
+in place of `fabridge.js` pretty much anywhere. Go ahead and try it out on your
+website, and save 10+ KiB every fresh page load. Unless you're really into
+optimizing things, that's all it takes.
 
-The two cases in which it won't work:
+The two cases in which it *won't* work:
 
 - If you use the low-level API of FABridge: (These functions aren't exported by
   default, but you can export them manually if you want.)
