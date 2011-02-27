@@ -1,4 +1,5 @@
 (function(){var e=true,g=null;Math.floor(Math.random()*2147483648).toString(36);/*
+ FABridgeC
  Portions copyright 2006 Adobe Systems Incorporated
  Copyright 2011 Andy Schmitz
  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
